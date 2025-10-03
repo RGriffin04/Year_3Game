@@ -187,6 +187,11 @@ coverage*.info
 *.coverage
 *.coveragexml
 
+# exlcude out directory 
+out/
+out/build
+out/build/x64-Debug/.ninja_log
+
 # NCrunch
 _NCrunch_*
 .*crunch*.local.xml
